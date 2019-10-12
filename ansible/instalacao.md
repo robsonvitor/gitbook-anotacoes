@@ -22,11 +22,13 @@ apt update
 
 Instalar o Ansible
 
-```text
+```bash
 apt install ansible
 ```
 
-
+$$
+a = b * c
+$$
 
 ## Instalação no Ubuntu 18.04
 
