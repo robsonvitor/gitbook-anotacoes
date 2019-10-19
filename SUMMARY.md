@@ -17,6 +17,7 @@
 * [Regex](regex.md)
 * [Instalação Debian](debian.md)
 * [Linux - Administração do Sistema](linux-administracao-do-sistema/README.md)
+  * [Gnome](linux-administracao-do-sistema/gnome.md)
   * [Zenity](linux-administracao-do-sistema/zenity.md)
   * [Nautilus](linux-administracao-do-sistema/nautilus.md)
   * [find](linux-administracao-do-sistema/find.md)
