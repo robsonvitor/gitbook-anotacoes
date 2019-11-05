@@ -17,6 +17,7 @@
 * [Regex](regex.md)
 * [Instalação Debian](debian.md)
 * [Linux - Administração do Sistema](linux-administracao-do-sistema/README.md)
+  * [Vino](linux-administracao-do-sistema/vino.md)
   * [dmidecode](linux-administracao-do-sistema/dmidecode.md)
   * [Gnome](linux-administracao-do-sistema/gnome.md)
   * [Zenity](linux-administracao-do-sistema/zenity.md)
