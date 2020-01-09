@@ -84,3 +84,9 @@ export DISPLAY=:0
 scrot nome_arquivo.png
 ```
 
+### Remover página de arquivo PDF
+
+```text
+pdftk documento.pdf cat 2-4 11-end output novo_documento.pdf
+```
+
