@@ -36,6 +36,18 @@ find Arquivos/GoogleDrive/ -iname \*.pdf -exec gvfs-set-attribute -t unset {} me
 
 /usr/share/nautilus-python/extensions/insync\_plugin.py
 
+### Remover página de arquivo PDF
+
+```text
+pdftk documento.pdf cat 2-4 11-end output novo_documento.pdf
+```
+
+### Converter PDF \(Imagem\) para OCR
+
+```text
+ocrmypdf --quiet --language por --rotate-pages --force-ocr --deskew --remove-background Arquivo_Imagem.pdf Arquivo_OCR.pdf
+```
+
 ## Visualizar tamanho de diretórios e arquivos ocultos
 
 ```text
@@ -84,9 +96,5 @@ export DISPLAY=:0
 scrot nome_arquivo.png
 ```
 
-### Remover página de arquivo PDF
 
-```text
-pdftk documento.pdf cat 2-4 11-end output novo_documento.pdf
-```
 
