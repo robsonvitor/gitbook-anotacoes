@@ -16,7 +16,7 @@ wpa_supplicant -i INTERFACE_WIFI -D wext -c wpa_SSID.conf
 
 Após conectado, executar o cliente DHCP ou IP fixo
 
-\_\_\_
+\*\*\*\*
 
 ### Configurar endereço e rota em interface de rede
 
