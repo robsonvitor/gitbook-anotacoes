@@ -1,5 +1,23 @@
 # Rede
 
+### Configurar conexão sem fio com wpa\_supplicant
+
+**Gerar configuração**
+
+```text
+wpa_passphrase SSID senha > wpa_SSID.conf
+```
+
+**Conectar**
+
+```text
+wpa_supplicant -i INTERFACE_WIFI -D wext -c wpa_SSID.conf 
+```
+
+Após conectado, executar o cliente DHCP ou IP fixo
+
+\_\_\_
+
 ### Configurar endereço e rota em interface de rede
 
 **Ativar Interface de Rede**
