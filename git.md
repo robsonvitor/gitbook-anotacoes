@@ -69,5 +69,15 @@ git merge branch_temporaria
 
 [https://gist.github.com/leocomelli/2545add34e4fec21ec16](https://gist.github.com/leocomelli/2545add34e4fec21ec16)
 
-[https://githowto.com/pt-BR](https://githowto.com/pt-BR)
+{% embed url="https://githowto.com/pt-BR" %}
+
+**Armazenar credenciais de um repositório**
+
+```text
+# Armazena pra sempre
+git config credential.helper store
+
+# Armazena por 60 minutos
+git config credential.helper 'cache --timeout=3600'
+```
 
