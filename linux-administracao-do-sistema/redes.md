@@ -166,3 +166,7 @@ Explicando os parâmetros do ssh:
 2. **-L :** Redireciona o tráfego local para o remoto
 3. **-N :** Não executar comando no host remoto
 
+#### Verificação de portas abertas no sistema
+
+[https://linuxize.com/post/check-listening-ports-linux/](https://linuxize.com/post/check-listening-ports-linux/)
+
