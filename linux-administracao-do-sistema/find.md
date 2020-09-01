@@ -36,7 +36,15 @@ find . -maxdepth 2 -iname "expressaoDeBusca"
 
 find . -maxdepth 1 ! -name \*.jar
 
+#### Renomear arquivos substituindo ou removendo uma string do nome
+
+```text
+find ./ -type f -iname "String*" -exec rename 's/String//g' {} \;
+```
+
 ## Expressões regulares
 
 find /diretorio -regextype posix-egrep -iregex '.\*.\(mp3\|wma\)'
+
+
 
