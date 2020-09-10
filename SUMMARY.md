@@ -17,6 +17,7 @@
 * [Regex](regex.md)
 * [Instalação Debian](debian.md)
 * [Linux - Administração do Sistema](linux-administracao-do-sistema/README.md)
+  * [minicom](linux-administracao-do-sistema/minicom.md)
   * [webdav - CURL](linux-administracao-do-sistema/webdav-curl.md)
   * [SSH](linux-administracao-do-sistema/ssh.md)
   * [Vino](linux-administracao-do-sistema/vino.md)
