@@ -50,4 +50,5 @@
 * [Windows](windows.md)
 * [Radius](radius.md)
 * [LDAP](openldap.md)
+* [OCS Inventory](ocs-inventory.md)
 
