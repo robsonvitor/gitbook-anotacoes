@@ -11,7 +11,7 @@ select NAME,LASTCOME from hardware where DATE(lastcome) < (CURDATE() - interval 
 #### Computadores sem um determinado software instalado
 
 ```text
-select hardware_id from softwares where softwares.PUBLISHER like "%bitdefender%"
+select h.name,DATE_FORMAT(h.lastcome,'%d/%m/%Y %H:%m'),h.lastcome from hardware as h WHERE h.id NOT IN (select hardware_id from softwares as s where s.PUBLISHER like "nome-fabricante-software");
 ```
 
 #### Softwares instalados em um determinado computador
