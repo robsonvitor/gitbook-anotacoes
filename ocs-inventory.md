@@ -5,7 +5,7 @@
 #### Dispositivos vistos há mais de trinta dias
 
 ```text
-select NAME,LASTCOME from hardware where DATE(lastcome) < (CURDATE() - interval 30 DAY)
+SELECT name,lastcome FROM hardware WHERE DATE(lastcome) < (CURDATE() - interval 30 DAY);
 ```
 
 #### Informações sobre softwares instalados
@@ -23,7 +23,7 @@ SELECT h.name,DATE_FORMAT(h.lastcome,'%d/%m/%Y %H:%m') FROM hardware as h WHERE 
 #### Softwares instalados em um determinado computador
 
 ```text
-select hard.name,soft.name,soft.publisher,soft.version from softwares as soft inner join hardware as hard on soft.hardware_id = hard.id where hard.name like "NOME-PC%" order by soft.publisher;
+SELECT hard.name,soft.name,soft.publisher,soft.version FROM softwares as soft INNER JOIN hardware as hard on soft.hardware_id = hard.id WHERE hard.name LIKE "NOME-PC%" ORDER BY soft.publisher;
 ```
 
 
