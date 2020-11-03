@@ -34,9 +34,11 @@ SELECT COUNT\(\*\) FROM tabela
 
 \# Criar Trigger
 
-DELIMITER \|
+
 
 ```text
+DELIMITER |
+
 CREATE TRIGGER logCriarUsuario
 
     AFTER INSERT ON tbl\_usuarios
@@ -46,11 +48,11 @@ CREATE TRIGGER logCriarUsuario
         INSERT INTO tbl\_logCriarUsuario SET usuario = NEW.usuario;
 
     END;
-```
 
-\|
-
+|
 DELIMITER ;
+
+```
 
 \# Apagar Trigger
 
@@ -94,4 +96,17 @@ Execute o comando a seguir para forçar o reconhecimentos das permissões pelo s
 ```text
 mysql> FLUSH PRIVILEGES;
 ```
+
+### Importar dados de um CSV para MySQL/MariaDB
+
+```text
+CREATE TABLE importados_do_xlsx;
+```
+
+```text
+LOAD DATA LOCAL INFILE "/path/to/importar_para_sql.csv" 
+INTO TABLE importados_do_xlsx FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';
+```
+
+Referência: [https://chartio.com/resources/tutorials/excel-to-mysql/](https://chartio.com/resources/tutorials/excel-to-mysql/)
 
