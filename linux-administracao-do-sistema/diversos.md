@@ -96,5 +96,9 @@ export DISPLAY=:0
 scrot nome_arquivo.png
 ```
 
+Rotacionar múltiplas páginas de um PDF
 
+```text
+for i in {01..11}; do pgs=$(qpdf --show-npages $i-20.pdf); qpdf $i-20.pdf $i.pdf --rotate=+90:2-$pgs; done
+```
 
