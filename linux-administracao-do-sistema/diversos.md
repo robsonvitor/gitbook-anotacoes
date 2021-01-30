@@ -102,3 +102,7 @@ Rotacionar múltiplas páginas de um PDF
 for i in {01..11}; do pgs=$(qpdf --show-npages $i-20.pdf); qpdf $i-20.pdf $i.pdf --rotate=+90:2-$pgs; done
 ```
 
+## PDF/A
+
+[https://gnulinuxbrasil.com.br/2020/07/02/o-que-e-pdf-e-pdf-a/](https://gnulinuxbrasil.com.br/2020/07/02/o-que-e-pdf-e-pdf-a/)
+
