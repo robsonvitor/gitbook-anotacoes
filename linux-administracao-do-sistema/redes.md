@@ -86,6 +86,12 @@ ip link set dev eth0.100 up
 ip addr add 192.168.100.1/24 brd 192.168.100.255 dev eth0.100
 ```
 
+**Ou obter endereço IP via DHCP**
+
+```text
+udhcpc -i eth0.100
+```
+
 **Desativar a interface virtual**
 
 ```text
@@ -98,11 +104,7 @@ ip link set dev eth0.100 down
 ip link delete eth0.100
 ```
 
-**Caso esteja realizando a instalação do Debian e precise forçar a buscar o ip via DHCP, o comando abaixo resolve.**
-
-```text
-udhcpc -i eth0.100
-```
+\*\*\*\*
 
 ## [https://wiki.archlinux.org/index.php/VLAN](https://wiki.archlinux.org/index.php/VLAN)
 
