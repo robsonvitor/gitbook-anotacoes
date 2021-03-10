@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Introdução](README.md)
+* [Latex](latex/README.md)
+  * [Referências](latex/referencias.md)
 * [Zabbix](zabbix/README.md)
   * [Resolução de Problemas](zabbix/resolucao-de-problemas.md)
 * [PostgreSQL](postgresql.md)
