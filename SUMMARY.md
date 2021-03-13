@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introdução](README.md)
+* [Macetes em equipamentos](macetes-em-equipamentos.md)
 * [Latex](latex/README.md)
   * [Referências](latex/referencias.md)
 * [Zabbix](zabbix/README.md)
