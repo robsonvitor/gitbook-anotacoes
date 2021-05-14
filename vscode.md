@@ -1,3 +1,7 @@
+---
+description: Coisas sobre o vscode
+---
+
 # vscode
 
 #### Remover linhas duplicadas
