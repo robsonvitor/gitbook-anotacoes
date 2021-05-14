@@ -56,4 +56,5 @@
 * [Radius](radius.md)
 * [LDAP](openldap.md)
 * [OCS Inventory](ocs-inventory.md)
+* [vscode](vscode.md)
 
