@@ -2,6 +2,7 @@
 
 * [Introdução](README.md)
 * [FOG Server](fog-server/README.md)
+  * [Criar imagem Windows 10](fog-server/criar-imagem-windows-10.md)
   * [Links](fog-server/links.md)
 * [Macetes em equipamentos](macetes-em-equipamentos.md)
 * [Latex](latex/README.md)
