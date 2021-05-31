@@ -6,3 +6,9 @@ Informações de memória
 sudo dmidecode -t 17
 ```
 
+Número de série \(Service Tag\)
+
+```text
+dmidecode -s system-serial-number
+```
+
