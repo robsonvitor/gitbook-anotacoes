@@ -14,6 +14,7 @@
 * [Python](python.md)
 * [VirtualBox](virtualbox.md)
 * [Ansible](ansible/README.md)
+  * [Integração com Netbox](ansible/integracao-com-netbox.md)
   * [AWX](ansible/awx.md)
   * [Instalação](ansible/instalacao.md)
   * [Configuração](ansible/configuracao.md)
