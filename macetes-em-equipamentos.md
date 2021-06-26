@@ -1,4 +1,4 @@
-# Macetes em equipamentos
+# Truques em equipamentos
 
 #### Redefinir toner brother 1512
 
