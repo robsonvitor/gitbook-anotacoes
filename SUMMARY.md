@@ -26,6 +26,7 @@
 * [Regex](regex.md)
 * [Instalação Debian](debian.md)
 * [Linux - Administração do Sistema](linux-administracao-do-sistema/README.md)
+  * [Ingressar máquina não Windows no Domínio AD](linux-administracao-do-sistema/ingressar-maquina-nao-windows-no-dominio-ad.md)
   * [Alternar em placas de vídeo](linux-administracao-do-sistema/alternar-em-placas-de-video.md)
   * [minicom](linux-administracao-do-sistema/minicom.md)
   * [webdav - CURL](linux-administracao-do-sistema/webdav-curl.md)
