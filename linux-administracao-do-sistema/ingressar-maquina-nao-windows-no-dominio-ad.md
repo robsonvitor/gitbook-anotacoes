@@ -49,5 +49,5 @@
     validate: /usr/sbin/visudo -cf %s
 ```
 
-
+[https://gist.github.com/Rubemlrm/fbffa2c57e72636b1651f55abb150a76](https://gist.github.com/Rubemlrm/fbffa2c57e72636b1651f55abb150a76)
 
